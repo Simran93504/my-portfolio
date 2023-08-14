@@ -48,7 +48,7 @@ const Home = ({ ratio }) => {
       <section>
         <div>
           <motion.h1 {...animations.h1}>
-            Hi, I Am <br />Simran
+            Hi, I am <br />Simran
           </motion.h1>
 
           <Typewriter
