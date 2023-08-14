@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiFillIeCircle, AiFillAndroid, AiFillWindows } from "react-icons/ai";
+import { AiFillIeCircle, AiFillAndroid, AiOutlineBgColors, AiFillCode} from "react-icons/ai";
 
 const Services = () => {
   const animations = {
@@ -52,7 +52,7 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <AiFillAndroid />
+          <AiOutlineBgColors />
           <span>Website Designing</span>
         </motion.div>
         <motion.div
@@ -60,7 +60,7 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <AiFillWindows />
+          <AiFillCode/>
           <span>Blockchain Development</span>
         </motion.div>
       </section>
