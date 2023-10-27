@@ -2,14 +2,15 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/logo.png";
+import my from "../assets/my.png";
+
 
 const Home = ({ ratio }) => {
   const clientCount = useRef(null);
   const projectCount = useRef(null);
 
   const animationClientsCount = () => {
-    animate(0, 250, {
+    animate(0, 350, {
       duration: 2,
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
     });
@@ -63,7 +64,7 @@ const Home = ({ ratio }) => {
 
           <div>
             <a href="mailto:simranies888@gmail.com">Hire Me</a>
-            <a href="https://drive.google.com/file/d/1ql04Q35OXADcq9QkuxJ1S--IJ4v5O9dS/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1pgqkTLRefFy9ppL_GmWMQwY0exPwM5Sq/view?usp=sharing">
               Resume <BsArrowUpRight />
             </a>
           </div>
@@ -105,7 +106,7 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        <img src={me} alt="Simran" />
+        <img src={my} alt="Simran" />
       </section>
       <BsChevronDown />
     </div>
