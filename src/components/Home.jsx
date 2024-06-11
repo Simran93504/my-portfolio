@@ -106,9 +106,8 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        <img src={my} alt="Simran" />
+        <img src={my} alt="Simran" style="border-radius: 50%;" />
       </section>
-      <BsChevronDown />
     </div>
   );
 };
