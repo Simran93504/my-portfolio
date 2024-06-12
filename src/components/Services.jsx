@@ -42,7 +42,8 @@ const Services = () => {
           initial={animations.twoAndThree}
         >
           <AiFillIeCircle />
-          <span>Web Development</span>
+          <span>Backend Development</span>
+          <p>Laravel, PHP, MySql</p>
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -53,7 +54,7 @@ const Services = () => {
           }}
         >
           <AiOutlineBgColors />
-          <span>Website Designing</span>
+          <span>Frontend Development</span>
         </motion.div>
         <motion.div
           className="serviceBox3"
