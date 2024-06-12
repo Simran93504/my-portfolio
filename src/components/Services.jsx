@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { AiFillIeCircle, AiOutlineBgColors, AiFillCode} from "react-icons/ai";
 import { IoLogoVue } from "react-icons/io5";
 import { FaLaravel } from "react-icons/fa";
+import { SiPhp } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 
 const Services = () => {
   const animations = {
@@ -45,7 +47,8 @@ const Services = () => {
         >
           <AiFillIeCircle />
           <span>Backend Development</span>
-          <p><FaLaravel /></p>
+          <p><FaLaravel /> <SiPhp /> <SiMysql />
+ </p>
 {/*           <p><IoLogoVue /></p> */}
         </motion.div>
         <motion.div
