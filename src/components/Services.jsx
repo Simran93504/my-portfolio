@@ -48,8 +48,8 @@ const Services = () => {
         >
           <AiFillIeCircle />
           <span>Backend Development</span>
-          <p><FaLaravel /> <SiPhp /> <SiMysql />
- </p>
+          <h2><FaLaravel /> <SiPhp /> <SiMysql />
+ </h2>
           
         </motion.div>
         <motion.div
@@ -62,7 +62,7 @@ const Services = () => {
         >
           <AiOutlineBgColors />
           <span>Frontend Development</span>
-          <h3><IoLogoVue /> <RiReactjsLine /></h3>
+          <h2><IoLogoVue /> <RiReactjsLine /></h2>
         </motion.div>
         <motion.div
           className="serviceBox3"
