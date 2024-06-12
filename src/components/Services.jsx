@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { AiFillIeCircle, AiOutlineBgColors, AiFillCode} from "react-icons/ai";
 import { IoLogoVue } from "react-icons/io5";
+import { FaLaravel } from "react-icons/fa";
 
 const Services = () => {
   const animations = {
@@ -44,8 +45,8 @@ const Services = () => {
         >
           <AiFillIeCircle />
           <span>Backend Development</span>
-          
-          <p><IoLogoVue /></p>
+          <p><FaLaravel /></p>
+{/*           <p><IoLogoVue /></p> */}
         </motion.div>
         <motion.div
           className="serviceBox3"
