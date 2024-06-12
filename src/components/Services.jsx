@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { AiFillIeCircle, AiOutlineBgColors, AiFillCode} from "react-icons/ai";
+import { IoLogoVue } from "react-icons/io5";
 
 const Services = () => {
   const animations = {
@@ -43,7 +44,8 @@ const Services = () => {
         >
           <AiFillIeCircle />
           <span>Backend Development</span>
-          <p>Laravel, PHP, MySql</p>
+          
+          <p><IoLogoVue /></p>
         </motion.div>
         <motion.div
           className="serviceBox3"
