@@ -5,6 +5,7 @@ import { IoLogoVue } from "react-icons/io5";
 import { FaLaravel } from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { RiReactjsLine } from "react-icons/ri";
 
 const Services = () => {
   const animations = {
@@ -49,7 +50,7 @@ const Services = () => {
           <span>Backend Development</span>
           <p><FaLaravel /> <SiPhp /> <SiMysql />
  </p>
-{/*           <p><IoLogoVue /></p> */}
+          
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -61,6 +62,7 @@ const Services = () => {
         >
           <AiOutlineBgColors />
           <span>Frontend Development</span>
+          <h3><IoLogoVue /> <RiReactjsLine /></h3>
         </motion.div>
         <motion.div
           className="serviceBox3"
