@@ -1,14 +1,20 @@
 {
   "projects": [
     {
-      "date": "31/05/2023",
-      "title": "Securita",
-      "description": "This is a blockchain based project built using smart contract. It is a decenteralized file sharing system to securely store and share files.",
-      "url": "https://github.com/Simran93504/Blockchain-based-file-sharing-system",
-      "imgSrc": "https://hbr.org/resources/images/article_assets/2022/04/01-BI_WEB3_STACKPOLE_HERO-1536x669.jpg"
+      "date": "01/04/2024",
+      "title": "Glucofit",
+      "description": "A client project developed using Vue.js and TypeScript, this panel facilitates comprehensive management of doctors, appointments, time slots, healthcare packages, and patient health data ranges.",
+      "url": "/",
+      "imgSrc": "https://images.unsplash.com/photo-1492551557933-34265f7af79e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-
     {
+      "date": "11/10/2023",
+      "title": "Intellicourse",
+      "description": "This project, designed for college use, is an AI-powered course generation system. By inputting topics and subtopics, the AI generates a complete syllabus and related questions for each topic. Users can then download the generated syllabus.",
+      "url": "https://github.com/Simran93504/course-generator",
+      "imgSrc": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+      {
       "date": "14/08/2023",
       "title": "PORTFOLIO",
       "description": "This project is built in the journey of my react tutorial. This is not enough to explain my learning ability but you can get the idea of my learning curve.",
@@ -16,13 +22,12 @@
       "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
     },
     {
-      "date": "28/08/2022",
-      "title": "Lil Paws",
-      "description": "This is a frontend Project. It is dog mating websites. It is a platform where you can find your dog's mate.",
-      "url": "https://simran93504.github.io/Lil-Paws/",
-      "imgSrc": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-    }
-
+      "date": "31/05/2023",
+      "title": "Securita",
+      "description": "This is a blockchain based project built using smart contract. It is a decenteralized file sharing system to securely store and share files.",
+      "url": "https://github.com/Simran93504/Blockchain-based-file-sharing-system",
+      "imgSrc": "https://hbr.org/resources/images/article_assets/2022/04/01-BI_WEB3_STACKPOLE_HERO-1536x669.jpg"
+    },
    
   ]
 }
